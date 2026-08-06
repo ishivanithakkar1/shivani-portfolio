@@ -7,7 +7,7 @@ export function Belief() {
   return (
     <Section id="belief" className="!pt-0">
       <Container>
-        <div className="grid gap-10 pb-16 pt-10 md:grid-cols-12 md:gap-8 md:pb-24 md:pt-16">
+        <div className="grid gap-10 pb-16 pt-8 md:grid-cols-12 md:gap-8 md:pb-24 md:pt-12">
           <div className="md:col-span-3">
             <FadeIn>
               <p className="text-xs font-medium uppercase tracking-[0.24em] text-text-muted">
