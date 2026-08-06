@@ -20,4 +20,13 @@ export const homeContent = {
         description:
             "I care about making technology feel thoughtful, useful, and a little more human. The details matter, from the first impression to the moments people remember.",
     },
+
+    identity: {
+        eyebrow: "About Shivani",
+        headline: "Hi, I’m Shivani.",
+        introduction:
+            "I’m a software engineer, creative thinker, and singer. I’m drawn to the place where code, sound, and human connection meet.",
+        perspective:
+            "That mix shapes the way I work: with curiosity, care, and attention to how every detail makes someone feel.",
+    },
 };
