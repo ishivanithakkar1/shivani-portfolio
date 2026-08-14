@@ -41,9 +41,21 @@ We achieved:
 
 ---
 
+## Milestone 04 — Sprint 2: The Studio & Soundwave Showcase
+
+Created the interactive Studio Showcase bridging Software Architecture & Vocal performance.
+
+We achieved:
+
+- **Dual-Mode Showcase Switcher (`StudioShowcase.tsx`)**: Fluid Framer Motion tab switcher toggling between `01. Software Architecture` (Electric Cyan) and `02. Vocal & Acoustic Studio` (Warm Amber).
+- **Engineering Case Study Cards (`content/projects.ts`)**: Structured backend architecture case studies with P99 Latency telemetry HUDs, tech tags, and interactive architectural spec inspection modal.
+- **Vocal & Acoustic Soundwave Player (`lib/vocalSynthPlayer.ts` & `content/music.ts`)**: Interactive soundwave track cards with live animated spectrum equalizers, key signature & tempo specs, and synthesized melodic vocal previews using Web Audio API.
+
+---
+
 ## Technical Backlog
 
-- Sprint 2: Progressive Soundwave Audio Player & Vocal Showcase component in Identity/Music section.
-- Support forwardRef in Section component if needed.
-- Add interactive project case studies for Full-Stack / Backend Engineering.
-- Add custom portrait / acoustic frequency signature visualization in Identity.
+- Sprint 3: Cinematic Navigation Header & Fluid Mobile Sanctuary Drawer.
+- Interactive Acoustic Frequency Signature Canvas in Identity section.
+- Custom audio asset upload guide for real MP3 studio stems.
+

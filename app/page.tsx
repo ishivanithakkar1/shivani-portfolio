@@ -3,6 +3,7 @@ import { SoundToggle } from "@/components/ui/SoundToggle";
 import { Arrival } from "@/components/home/Arrival";
 import { Belief } from "@/components/home/Belief";
 import { Identity } from "@/components/home/Identity";
+import { StudioShowcase } from "@/components/home/StudioShowcase";
 import { Craft } from "@/components/home/Craft";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Arrival />
         <Belief />
         <Identity />
+        <StudioShowcase />
         <Craft />
       </div>
     </main>
