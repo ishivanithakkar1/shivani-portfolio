@@ -9,6 +9,7 @@ const navItems = [
   { id: "identity", label: "Identity" },
   { id: "studio", label: "Studio" },
   { id: "craft", label: "Craft" },
+  { id: "contact", label: "Exchange" },
 ];
 
 export function Navigation() {

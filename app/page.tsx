@@ -6,6 +6,7 @@ import { Belief } from "@/components/home/Belief";
 import { Identity } from "@/components/home/Identity";
 import { StudioShowcase } from "@/components/home/StudioShowcase";
 import { Craft } from "@/components/home/Craft";
+import { Contact } from "@/components/home/Contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Identity />
         <StudioShowcase />
         <Craft />
+        <Contact />
       </div>
     </main>
   );
