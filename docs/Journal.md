@@ -26,3 +26,10 @@ We established:
 This is no longer a starter template.
 
 It now has an identity.
+
+## Technical Backlog
+
+- Migrate scroll animation to Motion hooks.
+- Support forwardRef in Section.
+- Replace placeholder copy with final writing.
+- Add portrait/signature in Identity.

@@ -29,4 +29,33 @@ export const homeContent = {
         perspective:
             "That mix shapes the way I work: with curiosity, care, and attention to how every detail makes someone feel.",
     },
+
+    craft: {
+        eyebrow: "Craft",
+        headline: "Thoughtful process makes room for better ideas.",
+        principles: [
+            {
+                heading: "Listen",
+                description:
+                    "Good work begins by understanding the person, context, and question beneath the brief.",
+            },
+            {
+                heading: "Simplify",
+                description:
+                    "Keep what helps, remove what distracts, and let the essential idea lead.",
+            },
+            {
+                heading: "Shape",
+                description:
+                    "Give every detail a reason to exist, from the first line of copy to the smallest interaction.",
+            },
+            {
+                heading: "Refine",
+                description:
+                    "Take time to notice what can feel clearer, calmer, and more considered.",
+            },
+        ],
+        closing:
+            "Care is rarely loud. It is felt in the ease of what remains.",
+    },
 };
