@@ -5,10 +5,9 @@ import { motion, AnimatePresence } from "motion/react";
 
 const navItems = [
   { id: "arrival", label: "Arrival" },
-  { id: "belief", label: "Belief" },
   { id: "identity", label: "Identity" },
+  { id: "vocal-stage", label: "Vocal" },
   { id: "studio", label: "Studio" },
-  { id: "craft", label: "Craft" },
   { id: "contact", label: "Exchange" },
 ];
 

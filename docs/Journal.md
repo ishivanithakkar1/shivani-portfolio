@@ -77,10 +77,40 @@ We achieved:
 
 ---
 
+## Milestone 07 — Sprint 5: Architectural Overhaul (Interactive CLI, Topology Graph & Vocal Stage)
+
+Transformed the site from a document layout into a live interactive workspace.
+
+We achieved:
+
+- **Interactive CLI Terminal (`SystemTerminal.tsx`)**: Built a fully functional developer terminal in the Identity section where visitors can run commands (`help`, `whoami`, `stack`, `sing`, `contact`, `soundscape`) or trigger execution via quick-run badges.
+- **Interactive Microservice Architecture Topology (`ArchitectureGraph.tsx`)**: Designed a live 4-stage backend node map (`Next.js Edge`, `API Gateway`, `Kafka Event Stream`, `PostgreSQL DB`) with interactive latency, throughput, and resiliency inspection under the Studio Architecture tab.
+- **Vocal Stage & Social Performance Hub (`VocalStage.tsx`)**: Embedded Shivani's actual YouTube (`@shivani_sings7721`) and Instagram (`@i_shivanithakkar`) channels into a dedicated acoustic studio listening stage.
+
+---
+
+## Milestone 08 — Production Resume Telemetry Integration (3.5+ Years Experience)
+
+Integrated Shivani's real production resume telemetry across the entire site architecture.
+
+We achieved:
+
+- **3.5+ Years Experience Messaging**: Reflected her exact 3.5+ years of software engineering background across the Arrival Hero, Identity, CLI Terminal, and Experience HUD.
+- **Production Project Case Studies (`content/projects.ts`)**: Replaced placeholder projects with her real production systems:
+  1. *Accurate Diamonds High-Traffic Management System* (NestJS, Express, MSSQL, query optimization).
+  2. *Karma Fine Jewellery System* (100% greenfield system built from scratch, NestJS + SQL).
+  3. *GIFT City Enterprise Utility Engine* (.NET Core, C#, MySQL, RBAC).
+  4. *Google Cloud Vertex AI & GenAI Pipeline* (Certified Prompt Engineering LLM pipelines).
+- **Experience & Certifications Telemetry**: Highlighted 3.5+ years of software engineering background and verified certifications (Google Cloud Vertex AI & McKinsey.org Forward Program).
+
+---
+
 ## Technical Backlog
 
 - Complete: All core experience sprints executed and integrated.
 - Custom audio asset upload guide for real MP3 studio stems.
+
+
 
 
 

@@ -4,6 +4,7 @@ import { Navigation } from "@/components/layout/Navigation";
 import { Arrival } from "@/components/home/Arrival";
 import { Belief } from "@/components/home/Belief";
 import { Identity } from "@/components/home/Identity";
+import { VocalStage } from "@/components/home/VocalStage";
 import { StudioShowcase } from "@/components/home/StudioShowcase";
 import { Craft } from "@/components/home/Craft";
 import { Contact } from "@/components/home/Contact";
@@ -25,6 +26,7 @@ export default function Home() {
         <Arrival />
         <Belief />
         <Identity />
+        <VocalStage />
         <StudioShowcase />
         <Craft />
         <Contact />

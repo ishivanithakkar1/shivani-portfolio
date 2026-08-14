@@ -8,6 +8,7 @@ import { Section } from "@/components/ui/Section";
 import { projectsData, type ProjectItem } from "@/content/projects";
 import { musicTracksData, type MusicTrack } from "@/content/music";
 import { vocalSynthPlayer } from "@/lib/vocalSynthPlayer";
+import { ArchitectureGraph } from "@/components/ui/ArchitectureGraph";
 
 export function StudioShowcase() {
   const [activeTab, setActiveTab] = useState<"engineering" | "music">("engineering");
@@ -171,6 +172,11 @@ export function StudioShowcase() {
                     </div>
                   </div>
                 ))}
+
+                {/* Live Microservice Architecture Topology Canvas */}
+                <div className="md:col-span-3 mt-4">
+                  <ArchitectureGraph />
+                </div>
               </motion.div>
             ) : (
               <motion.div

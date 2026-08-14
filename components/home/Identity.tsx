@@ -2,6 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Section } from "@/components/ui/Section";
 import { FrequencySignature } from "@/components/ui/FrequencySignature";
+import { SystemTerminal } from "@/components/ui/SystemTerminal";
 import { homeContent } from "@/content/home";
 
 export function Identity() {
@@ -41,10 +42,10 @@ export function Identity() {
               </FadeIn>
             </div>
 
-            {/* Interactive Acoustic Frequency Signature Visualizer */}
+            {/* Interactive CLI Terminal Developer Workstation */}
             <div className="mt-8">
               <FadeIn delay={0.4}>
-                <FrequencySignature />
+                <SystemTerminal />
               </FadeIn>
             </div>
           </div>

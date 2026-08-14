@@ -1,22 +1,22 @@
 export const homeContent = {
   arrival: {
-    systemBadge: "01. LOGIC // 02. ACOUSTICS",
+    systemBadge: "3.5+ YRS EXP // FULL-STACK & VOCALIST",
     headline: {
-      serifLine: "Where structure meets",
+      serifLine: "Where API architecture meets",
       sansLine: "unfiltered resonance.",
     },
     subheading:
-      "Software Engineer & Vocalist. Designing scalable digital systems with algorithmic precision, shaped by the emotion of music.",
+      "Full-Stack Software Engineer & Vocalist with 3.5+ years of experience crafting scalable web apps & backend microservices (Angular, React, NestJS, .NET Core).",
     duality: [
       {
         tag: "LOGIC",
         title: "Software Engineering",
-        desc: "Full-Stack Systems • High Availability • Clean Architecture",
+        desc: "Full-Stack Web Systems • NestJS, .NET Core, Angular & React • Latency Optimization (-30%) • GCP Vertex AI",
       },
       {
         tag: "RESONANCE",
         title: "Vocal & Sound",
-        desc: "Acoustic Timbre • Expressive Melodies • Studio Production",
+        desc: "Acoustic Timbre • Expressive Melodies • Studio Performances",
       },
     ],
     scrollCue: "Explore Sanctuary",
@@ -25,45 +25,45 @@ export const homeContent = {
   belief: {
     eyebrow: "PHILOSOPHY",
     headline: {
-      line1: "Code is the instrument.",
-      line2: "Human feeling is the composition.",
+      line1: "Code is the architecture.",
+      line2: "Performance is the composition.",
     },
     description:
-      "Great software and memorable music share the exact same foundation: rhythm, balance, structure, and emotional resonance. The details matter—from micro-interactions to macro architecture.",
+      "Full-stack engineering and music share the exact same foundation: rhythm, scalability, schema balance, and latency optimization.",
   },
 
   identity: {
     eyebrow: "IDENTITY",
     headline: "Hi, I’m Shivani Thakkar.",
     introduction:
-      "I inhabit two world: the logical precision of software engineering and the expressive emotion of vocal performance. I build software that feels intuitive and craft music that resonates deeply.",
+      "Full-Stack Software Engineer with 3.5+ years of experience building end-to-end web applications and scalable microservices in Angular, React, Next.js, NestJS, Node.js, and .NET Core. Certified by Google Cloud (Vertex AI) & McKinsey & Company.",
     perspective:
-      "This duality shapes how I solve complex engineering problems: with surgical clarity, artistic curiosity, and extreme attention to detail.",
+      "Bringing logical precision to full-stack systems and emotional depth to acoustic music.",
   },
 
   craft: {
     eyebrow: "PROCESS & CRAFT",
-    headline: "Thoughtful engineering makes room for extraordinary experiences.",
+    headline: "Thoughtful full-stack engineering makes room for extraordinary reliability.",
     principles: [
       {
-        heading: "Listen & Analyze",
+        heading: "1. End-to-End Architecture",
         description:
-          "Deconstruct complex briefs down to core fundamentals—whether optimizing backend queries or arranging vocal harmonies.",
+          "Deconstruct complex briefs down to responsive Angular/React interfaces, clean NestJS microservices, and robust schemas.",
       },
       {
-        heading: "Architect & Simplify",
+        heading: "2. Optimize Performance (-30% Latency)",
         description:
-          "Keep what elevates performance, remove noise, and enforce modular purity.",
+          "Fine-tune SQL stored procedures, indexing, and frontend rendering pipelines for ultra-fast response times.",
       },
       {
-        heading: "Compose & Refine",
+        heading: "3. AI & Production CI/CD",
         description:
-          "Infuse every line of code and user touchpoint with tactile delight and flawless reliability.",
+          "Deploy Google Cloud Vertex AI pipelines and automated CI/CD releases.",
       },
       {
-        heading: "Resonate",
+        heading: "4. Acoustic Resonance",
         description:
-          "Deliver experiences that leave a lasting emotional impression long after the screen dims.",
+          "Synthesize technical rigor with expressive vocal performances.",
       },
     ],
     closing:
