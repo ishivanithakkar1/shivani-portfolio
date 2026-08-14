@@ -1,61 +1,72 @@
 export const homeContent = {
-    arrival: {
-        headline: {
-            line1: "Where technology",
-            line2: "meets creativity.",
-        },
-
-        subheading:
-            "Software Engineer • Creative Thinker • Singer",
-
-        scrollCue: "Scroll to begin",
+  arrival: {
+    systemBadge: "01. LOGIC // 02. ACOUSTICS",
+    headline: {
+      serifLine: "Where structure meets",
+      sansLine: "unfiltered resonance.",
     },
+    subheading:
+      "Software Engineer & Vocalist. Designing scalable digital systems with algorithmic precision, shaped by the emotion of music.",
+    duality: [
+      {
+        tag: "LOGIC",
+        title: "Software Engineering",
+        desc: "Full-Stack Systems • High Availability • Clean Architecture",
+      },
+      {
+        tag: "RESONANCE",
+        title: "Vocal & Sound",
+        desc: "Acoustic Timbre • Expressive Melodies • Studio Production",
+      },
+    ],
+    scrollCue: "Explore Sanctuary",
+  },
 
-    belief: {
-        eyebrow: "What I care about",
-        headline: {
-            line1: "Technology is the medium.",
-            line2: "Human feeling is the point.",
-        },
+  belief: {
+    eyebrow: "PHILOSOPHY",
+    headline: {
+      line1: "Code is the instrument.",
+      line2: "Human feeling is the composition.",
+    },
+    description:
+      "Great software and memorable music share the exact same foundation: rhythm, balance, structure, and emotional resonance. The details matter—from micro-interactions to macro architecture.",
+  },
+
+  identity: {
+    eyebrow: "IDENTITY",
+    headline: "Hi, I’m Shivani Thakkar.",
+    introduction:
+      "I inhabit two world: the logical precision of software engineering and the expressive emotion of vocal performance. I build software that feels intuitive and craft music that resonates deeply.",
+    perspective:
+      "This duality shapes how I solve complex engineering problems: with surgical clarity, artistic curiosity, and extreme attention to detail.",
+  },
+
+  craft: {
+    eyebrow: "PROCESS & CRAFT",
+    headline: "Thoughtful engineering makes room for extraordinary experiences.",
+    principles: [
+      {
+        heading: "Listen & Analyze",
         description:
-            "I care about making technology feel thoughtful, useful, and a little more human. The details matter, from the first impression to the moments people remember.",
-    },
-
-    identity: {
-        eyebrow: "About Shivani",
-        headline: "Hi, I’m Shivani.",
-        introduction:
-            "I’m a software engineer, creative thinker, and singer. I’m drawn to the place where code, sound, and human connection meet.",
-        perspective:
-            "That mix shapes the way I work: with curiosity, care, and attention to how every detail makes someone feel.",
-    },
-
-    craft: {
-        eyebrow: "Craft",
-        headline: "Thoughtful process makes room for better ideas.",
-        principles: [
-            {
-                heading: "Listen",
-                description:
-                    "Good work begins by understanding the person, context, and question beneath the brief.",
-            },
-            {
-                heading: "Simplify",
-                description:
-                    "Keep what helps, remove what distracts, and let the essential idea lead.",
-            },
-            {
-                heading: "Shape",
-                description:
-                    "Give every detail a reason to exist, from the first line of copy to the smallest interaction.",
-            },
-            {
-                heading: "Refine",
-                description:
-                    "Take time to notice what can feel clearer, calmer, and more considered.",
-            },
-        ],
-        closing:
-            "Care is rarely loud. It is felt in the ease of what remains.",
-    },
+          "Deconstruct complex briefs down to core fundamentals—whether optimizing backend queries or arranging vocal harmonies.",
+      },
+      {
+        heading: "Architect & Simplify",
+        description:
+          "Keep what elevates performance, remove noise, and enforce modular purity.",
+      },
+      {
+        heading: "Compose & Refine",
+        description:
+          "Infuse every line of code and user touchpoint with tactile delight and flawless reliability.",
+      },
+      {
+        heading: "Resonate",
+        description:
+          "Deliver experiences that leave a lasting emotional impression long after the screen dims.",
+      },
+    ],
+    closing:
+      "Excellence is never accidental. It is the result of continuous refinement.",
+  },
 };

@@ -1,26 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  /* Core */
-  --background: #fafaf7;
-  --foreground: #18181b;
+  /* Dark Obsidian Atmosphere */
+  --background: #060608;
+  --foreground: #f4f4f7;
 
   /* Surfaces */
-  --surface: #ffffff;
-  --surface-muted: #f4f4f5;
+  --surface: #0c0c10;
+  --surface-muted: #13131a;
+  --surface-glass: rgba(18, 18, 26, 0.65);
 
   /* Text */
-  --text-primary: #18181b;
-  --text-secondary: #52525b;
-  --text-muted: #71717a;
+  --text-primary: #f4f4f7;
+  --text-secondary: #a1a1aa;
+  --text-muted: #646470;
 
-  /* Brand */
-  --primary: #2563eb;
-  --secondary: #7c3aed;
+  /* Dual Brand Identity Accents */
+  /* Logic / Engineering: Electric Cyan & Deep Indigo */
+  --accent-cyan: #38bdf8;
+  --accent-indigo: #6366f1;
+  /* Acoustics / Vocal: Soft Amber & Warm Rose */
+  --accent-amber: #fbbf24;
+  --accent-rose: #f43f5e;
 
-  /* UI */
-  --border: #e4e4e7;
-  --ring: #2563eb;
+  /* UI & Borders */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(99, 102, 241, 0.25);
+  --ring: #6366f1;
 }
 
 @theme inline {
@@ -29,19 +35,24 @@
 
   --color-surface: var(--surface);
   --color-surface-muted: var(--surface-muted);
+  --color-surface-glass: var(--surface-glass);
 
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
 
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-indigo: var(--accent-indigo);
+  --color-accent-amber: var(--accent-amber);
+  --color-accent-rose: var(--accent-rose);
 
   --color-border: var(--border);
+  --color-border-glow: var(--border-glow);
   --color-ring: var(--ring);
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --font-serif: var(--font-serif), Georgia, serif;
 }
 
 *,
@@ -52,6 +63,7 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
@@ -59,11 +71,44 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), sans-serif;
-
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #060608;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 ::selection {
-  background: var(--primary);
-  color: white;
+  background: rgba(99, 102, 241, 0.35);
+  color: #ffffff;
 }
+
+/* Glassmorphism Utility */
+.glass-panel {
+  background: var(--surface-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+}
+
+/* Font helpers */
+.font-serif-display {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: var(--font-geist-mono), monospace;
+}

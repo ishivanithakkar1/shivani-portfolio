@@ -1,15 +1,26 @@
+import { AtmosphereCanvas } from "@/components/ui/AtmosphereCanvas";
+import { SoundToggle } from "@/components/ui/SoundToggle";
 import { Arrival } from "@/components/home/Arrival";
 import { Belief } from "@/components/home/Belief";
-import { Craft } from "@/components/home/Craft";
 import { Identity } from "@/components/home/Identity";
+import { Craft } from "@/components/home/Craft";
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
-      <Arrival />
-      <Belief />
-      <Identity />
-      <Craft />
+    <main className="relative min-h-screen overflow-x-hidden bg-background text-foreground">
+      {/* Background Canvas Atmosphere */}
+      <AtmosphereCanvas />
+
+      {/* Acoustic Soundscape Interactive Control */}
+      <SoundToggle />
+
+      {/* Page Sections */}
+      <div className="relative z-10">
+        <Arrival />
+        <Belief />
+        <Identity />
+        <Craft />
+      </div>
     </main>
   );
 }
