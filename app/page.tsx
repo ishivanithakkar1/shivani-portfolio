@@ -1,5 +1,6 @@
 import { AtmosphereCanvas } from "@/components/ui/AtmosphereCanvas";
 import { SoundToggle } from "@/components/ui/SoundToggle";
+import { Navigation } from "@/components/layout/Navigation";
 import { Arrival } from "@/components/home/Arrival";
 import { Belief } from "@/components/home/Belief";
 import { Identity } from "@/components/home/Identity";
@@ -11,6 +12,9 @@ export default function Home() {
     <main className="relative min-h-screen overflow-x-hidden bg-background text-foreground">
       {/* Background Canvas Atmosphere */}
       <AtmosphereCanvas />
+
+      {/* Floating Cinematic Navigation Header */}
+      <Navigation />
 
       {/* Acoustic Soundscape Interactive Control */}
       <SoundToggle />

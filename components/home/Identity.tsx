@@ -1,6 +1,7 @@
 import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Section } from "@/components/ui/Section";
+import { FrequencySignature } from "@/components/ui/FrequencySignature";
 import { homeContent } from "@/content/home";
 
 export function Identity() {
@@ -37,6 +38,13 @@ export function Identity() {
                 <p className="mt-6 font-mono-code text-sm text-text-muted leading-relaxed">
                   {homeContent.identity.perspective}
                 </p>
+              </FadeIn>
+            </div>
+
+            {/* Interactive Acoustic Frequency Signature Visualizer */}
+            <div className="mt-8">
+              <FadeIn delay={0.4}>
+                <FrequencySignature />
               </FadeIn>
             </div>
           </div>
