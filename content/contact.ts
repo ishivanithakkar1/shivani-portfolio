@@ -28,10 +28,10 @@ export const contactContent = {
   ],
   email: "i.shivanithakkar@gmail.com",
   socials: [
+    { label: "Linktree", url: "https://linktr.ee/i.shivani" },
     { label: "GitHub", url: "https://github.com/ishivanithakkar1" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/shivani-thakkar-07" },
     { label: "Instagram", url: "https://instagram.com/i_shivanithakkar" },
     { label: "YouTube", url: "https://www.youtube.com/@shivani_sings7721" },
-    // { label: "X / Twitter", url: "https://x.com" },
   ],
 };

@@ -103,12 +103,25 @@ We achieved:
   4. *Google Cloud Vertex AI & GenAI Pipeline* (Certified Prompt Engineering LLM pipelines).
 - **Experience & Certifications Telemetry**: Highlighted 3.5+ years of software engineering background and verified certifications (Google Cloud Vertex AI & McKinsey.org Forward Program).
 
+## Milestone 09 — Authentic Vocal Performance Hub & Linktree Integration
+
+Integrated Shivani's real Linktree profile (`linktr.ee/i.shivani`), YouTube videos, Shorts, and Instagram Reels into the Vocal Stage.
+
+We achieved:
+
+- **Linktree Integration (`https://linktr.ee/i.shivani`)**: Linked her official Linktree hub across the Vocal Stage header, recording cards, and Contact Sanctuary footer.
+- **YouTube Video & Shorts Performance Cards (`content/music.ts`)**:
+  - *Aankho Ma Bethela Chatak Kahe He* (`https://youtu.be/dZ4UjyKTMs8`)
+  - *Satranga Cover (Shorts)* (`https://youtube.com/shorts/TZqCVSOy_G4`)
+  - *Kanku Chanti Kankotari* (`https://youtu.be/T32wcNSCRQE`)
+- **Instagram Performance Reel**: Embedded direct link to her live acoustic reel (`https://www.instagram.com/reel/DWXiFWdO_BI/`).
+
 ---
 
 ## Technical Backlog
 
-- Complete: All core experience sprints executed and integrated.
-- Custom audio asset upload guide for real MP3 studio stems.
+- Complete: All core experience sprints & real media integration executed.
+
 
 
 
